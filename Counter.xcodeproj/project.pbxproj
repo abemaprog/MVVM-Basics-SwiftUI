@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		15C350D82CB2343700B1F799 /* CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C350D72CB2343700B1F799 /* CounterApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		15C350D42CB2343700B1F799 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C350D72CB2343700B1F799 /* CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		15C350CB2CB2343700B1F799 = {
 			isa = PBXGroup;
 			children = (
+				15C350D72CB2343700B1F799 /* CounterApp.swift */,
 				15C350D62CB2343700B1F799 /* Counter */,
 				15C350D52CB2343700B1F799 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C350D82CB2343700B1F799 /* CounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
